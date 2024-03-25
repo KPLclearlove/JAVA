@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03e0fe31-9efe-4844-aa07-bdaf4654a8b6" name="更改" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All/Classification.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/Classification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All/Cpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/Cpc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All/Ipc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/Ipc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/.idea/JAVA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/.idea/shelf/_2024_3_25_11_04____.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/.idea/shelf/在进行更新之前于_2024_3_25_11_04_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/All/Classification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/All/Cpc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/All/Ipc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/All/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +35,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="KPLclearlove &lt;sixgod1240@foxmail.com&gt;" />
         <option value="KPLclearlove &lt;127923515+kplclearlove@users.noreply.github.com&gt;" />
       </list>
     </option>
@@ -43,6 +53,12 @@
   }
 }]]></component>
   <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="KPLclearlove" />
+        <option name="repository" value="JAVA" />
+      </RepoCoordinatesHolder>
+    </option>
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="58f57c53-80b7-4e2f-9ea7-3137b7644305" />
@@ -66,7 +82,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "All",
+    "git-widget-placeholder": "WORK",
     "kotlin-language-version-configured": "true",
     "应用程序.test.executor": "Run"
   }
@@ -95,7 +111,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711336140719</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1711336523594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711336523594</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1711336578987</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711336578987</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
