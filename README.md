@@ -1,3 +1,3 @@
 # JAVA
-JAVA
-What is this
+FUCK SCHOOL
+LEAVE ME AT HOME!
