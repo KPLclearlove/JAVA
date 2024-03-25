@@ -1,4 +1,4 @@
-package All;
+package Week4;
 
 public class Cpc extends Classification{
     @Override

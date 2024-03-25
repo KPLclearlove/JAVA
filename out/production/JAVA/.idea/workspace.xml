@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03e0fe31-9efe-4844-aa07-bdaf4654a8b6" name="更改" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All/Classification.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/Classification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All/Cpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/Cpc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All/Ipc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/Ipc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/All/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/test.java" afterDir="false" />
-    </list>
+    <list default="true" id="03e0fe31-9efe-4844-aa07-bdaf4654a8b6" name="更改" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
