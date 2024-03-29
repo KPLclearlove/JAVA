@@ -1,0 +1,537 @@
+Index: All/Classification.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/All/Classification.java b/All/Classification.java
+new file mode 100644
+--- /dev/null	(date 1711335724198)
++++ b/All/Classification.java	(date 1711335724198)
+@@ -0,0 +1,67 @@
++package All;
++
++public class Classification {
++    protected char section;
++    protected int mainClass;
++    protected char subclass;
++    protected int mainGroup;
++    protected int subgroup;
++    protected char position;
++    protected int value;
++    protected final char SEPARATOR = '/';
++    public char getSection() {
++        return section;
++    }
++
++    public void setSection(char section) {
++        this.section = section;
++    }
++
++    public int getMainClass() {
++        return mainClass;
++    }
++
++    public void setMainClass(int mainClass) {
++        this.mainClass = mainClass;
++    }
++
++    public char getSubclass() {
++        return subclass;
++    }
++
++    public void setSubclass(char subclass) {
++        this.subclass = subclass;
++    }
++
++    public int getMainGroup() {
++        return mainGroup;
++    }
++
++    public void setMainGroup(int mainGroup) {
++        this.mainGroup = mainGroup;
++    }
++
++    public int getSubgroup() {
++        return subgroup;
++    }
++
++    public void setSubgroup(int subgroup) {
++        this.subgroup = subgroup;
++    }
++
++    public char getPosition() {
++        return position;
++    }
++
++    public void setPosition(char position) {
++        this.position = position;
++    }
++
++    public int getValue() {
++        return value;
++    }
++
++    public void setValue(int value) {
++        this.value = value;
++    }
++}
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1711335601209)
++++ b/.idea/uiDesigner.xml	(date 1711335601209)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: All/Cpc.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/All/Cpc.java b/All/Cpc.java
+new file mode 100644
+--- /dev/null	(date 1711335724181)
++++ b/All/Cpc.java	(date 1711335724181)
+@@ -0,0 +1,51 @@
++package All;
++
++public class Cpc extends Classification{
++    @Override
++    public String toString() {
++        StringBuilder sb = new StringBuilder();
++
++        sb.append(section);
++
++        String strMainClass = String.format("%2s", mainClass).replace(' ', '0');
++        sb.append(strMainClass);
++
++        sb.append(subclass);
++
++        String strMainGroup = String.format("%4s", mainGroup);
++        sb.append(strMainGroup);
++
++        sb.append(SEPARATOR);
++
++        sb.append(subgroup);
++
++        sb.append(position);
++
++        sb.append(value);
++
++        return sb.toString();
++    }
++
++    public Cpc(char section, int mainClass, char subclass, int mainGroup, int subgroup, char position, int value) {
++        this.section = section;
++        this.mainClass = mainClass;
++        this.subclass = subclass;
++        this.mainGroup = mainGroup;
++        this.subgroup = subgroup;
++        this.position = position;
++        this.value = value;
++    }
++
++    public Cpc(String symbol1) {
++        this.section = symbol1.charAt(0);
++        this.mainClass = Integer.parseInt(symbol1.substring(1, 3));
++        this.subclass = symbol1.charAt(3);
++
++        int pos = symbol1.indexOf(SEPARATOR);
++        this.mainGroup = Integer.parseInt(symbol1.substring(4, pos).trim());
++        this.subgroup = Integer.parseInt(symbol1.substring(pos + 1, pos + 3));
++        this.position = symbol1.charAt(pos + 3);
++        this.value = Integer.parseInt(symbol1.substring(pos+4));
++    }
++}
++
+Index: All/Ipc.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/All/Ipc.java b/All/Ipc.java
+new file mode 100644
+--- /dev/null	(date 1711335724187)
++++ b/All/Ipc.java	(date 1711335724187)
+@@ -0,0 +1,43 @@
++package All;
++
++public class Ipc extends Classification {
++
++    @Override
++    public String toString() {
++        StringBuilder sb = new StringBuilder();
++
++        sb.append(section);
++
++        String strMainClass = String.format("%2s", mainClass).replace(' ', '0');
++        sb.append(strMainClass);
++
++        sb.append(subclass);
++
++        String strMainGroup = String.format("%4s", mainGroup);
++        sb.append(strMainGroup);
++
++        sb.append(SEPARATOR);
++
++        sb.append(subgroup);
++
++        return sb.toString();
++    }
++
++    public Ipc(char section, int mainClass, char subclass, int mainGroup, int subgroup) {
++        this.section = section;
++        this.mainClass = mainClass;
++        this.subclass = subclass;
++        this.mainGroup = mainGroup;
++        this.subgroup = subgroup;
++    }
++
++    public Ipc(String symbol) {
++        this.section = symbol.charAt(0);
++        this.mainClass = Integer.parseInt(symbol.substring(1, 3));
++        this.subclass = symbol.charAt(3);
++
++        int pos = symbol.indexOf(SEPARATOR);
++        this.mainGroup = Integer.parseInt(symbol.substring(4, pos).trim());
++        this.subgroup = Integer.parseInt(symbol.substring(pos + 1));
++    }
++}
+Index: All/test.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/All/test.java b/All/test.java
+new file mode 100644
+--- /dev/null	(date 1711335724192)
++++ b/All/test.java	(date 1711335724192)
+@@ -0,0 +1,28 @@
++package All;
++
++public class test {
++    public static void main(String[] args) {
++        char section = 'A';
++        int mainClass = 4;
++        char subclass = 'B';
++        int mainGroup = 55;
++        int subgroup = 56;
++        char position = 'B';
++        int value = 1;
++
++        Ipc ipc = new Ipc(section, mainClass, subclass, mainGroup, subgroup);
++        System.out.println(ipc);
++
++        String symbol = "G09F 17/30";
++        System.out.println(new Ipc(symbol));
++
++        Cpc cpc = new Cpc(section, mainClass, subclass, mainGroup, subgroup, position, value);
++        System.out.println(cpc);
++
++        String symbol1 = "G09F 17/30B1";
++        System.out.println(new Cpc(symbol1));
++
++
++    }
++
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1711335848802)
++++ b/.idea/workspace.xml	(date 1711335848802)
+@@ -0,0 +1,85 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="03e0fe31-9efe-4844-aa07-bdaf4654a8b6" name="更改" comment="Initial commit">
++      <changelist_data name="KPLclearlove" email="127923515+kplclearlove@users.noreply.github.com" />
++      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/JAVA.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/All/Classification.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/All/Cpc.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/All/Ipc.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/All/test.java" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="PREVIOUS_COMMIT_AUTHORS">
++      <list>
++        <option value="KPLclearlove &lt;127923515+kplclearlove@users.noreply.github.com&gt;" />
++      </list>
++    </option>
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 4
++}</component>
++  <component name="ProjectId" id="2eA6s3pSg4VWSmkqJWDfyD3xahb" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "All",
++    "kotlin-language-version-configured": "true"
++  }
++}]]></component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
++      </set>
++    </attachedChunks>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="默认任务">
++      <changelist id="03e0fe31-9efe-4844-aa07-bdaf4654a8b6" name="更改" comment="" />
++      <created>1711335238638</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1711335238638</updated>
++    </task>
++    <servers />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Initial commit" />
++    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/JAVA.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/JAVA.iml b/.idea/JAVA.iml
+new file mode 100644
+--- /dev/null	(date 1711335462890)
++++ b/.idea/JAVA.iml	(date 1711335462890)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1711335244612)
++++ b/.idea/misc.xml	(date 1711335244612)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1711335244591)
++++ b/.idea/modules.xml	(date 1711335244591)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1711335244621)
++++ b/.idea/vcs.xml	(date 1711335244621)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
