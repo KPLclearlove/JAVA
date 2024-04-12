@@ -1,5 +1,7 @@
 package Week7;
 
+import java.util.Arrays;
+
 public class MatrixTester {
     public static void main(String[] args) {
         double[][] values1 = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
@@ -22,5 +24,9 @@ public class MatrixTester {
 
         System.out.println("matrix1 * matrix2: ");
         System.out.println(mat1.multiplicate(mat2));
+
+        System.out.println(mat2.turnMat());
+        System.out.println(Arrays.toString(mat1.getrow(2)));
+
     }
 }

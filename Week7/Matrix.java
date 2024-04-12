@@ -2,6 +2,7 @@ package Week7;
 
 public class Matrix {
     private double[][] values;
+    private double[][] valuesT;
     private int nrows, ncols;
 
     public Matrix(int nrows, int ncols) {
@@ -64,7 +65,6 @@ public class Matrix {
 
         return (new Matrix(newValues));
     }
-
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -76,5 +76,27 @@ public class Matrix {
         }
 
         return sb.toString();
+    }
+
+    public Matrix turnMat(){
+        this.nrows = ncols;
+        this.ncols = nrows;
+        this.valuesT = new double[this.ncols][this.nrows];
+        for(int i = 0; i < nrows; i++){
+            for(int j =0; j < ncols; j++){
+                valuesT[i][j] = values[j][i];
+            }
+        }
+
+        return (new Matrix(valuesT));
+    }
+
+    public double[] getrow(int row){
+        double[] tem = new double[ncols];
+        for(int i = 0; i < ncols; i++){
+            tem[i] = values[row][i];
+        }
+
+        return (tem);
     }
 }
